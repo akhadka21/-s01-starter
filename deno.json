@@ -23,6 +23,7 @@
     "proseWrap": "preserve"
   },
   "tasks": {
+    "setup": "deno run --allow-run=git scripts/setup-hooks.ts",
     "dev": "deno run -A npm:vite@8.3.1",
     "build": "deno run -A npm:vite@8.3.1 build",
     "preview": "deno run -A npm:vite@8.3.1 preview",

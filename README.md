@@ -4,9 +4,9 @@ This is the Fall 2026 S01 starter for making a small interactive page and learni
 
 ## Set up on your computer
 
-1. Install [Deno 2.9.7](https://docs.deno.com/runtime/getting_started/installation/) and a code editor. If you use VS Code, install its [Deno extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno). Check `deno --version` in a _new_ terminal window after installation.
+1. Install [Git](https://git-scm.com/downloads) ([Git for Windows](https://gitforwindows.org/) on Windows), [Deno 2.9.7](https://docs.deno.com/runtime/getting_started/installation/), and a code editor. If you use VS Code, install its [Deno extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno). Check `git --version` and `deno --version` in a _new_ terminal window after installation.
 2. Clone your newly created repository onto your own computer and open that folder in your editor. Do not clone the instructor's template as your submission.
-3. Run `./setup-hooks.sh` from the repository root (on Windows without a Bash-compatible shell, ask your TA for help setting up the hooks).
+3. Run `deno task setup` from the repository root to enable the pre-commit checks. Use the same command on macOS and Windows, including PowerShell. Run it once for each new clone.
 4. Run `deno task dev` and open the local address it prints. Try the button before editing.
 5. Make your own change to the button handler in `src/main.ts`. Make its effect visible on the page, test it locally, and run `deno task ci` before committing and pushing to GitHub.
 6. Replace this README with a short description of **your** project and what you changed. Keep useful setup instructions if you like.
